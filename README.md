@@ -20,6 +20,11 @@ Links
 Changelog
 ---
 
+**30-04-2023**
+
+- Upload to [GitHub](https://github.com/s1doryak/wallet)
+- [Screenshot](wallet.png) of test wallet
+
 **20-02-2023**
 
 - Init (ref: [javascript.plainenglish.io](https://javascript.plainenglish.io/generate-your-own-bitcoin-wallet-within-5-minutes-3c36176b47ee))
