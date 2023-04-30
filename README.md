@@ -1,4 +1,4 @@
-JavaScript bitcoin mnemonic root wallet generator
+JavaScript bitcoin mnemonic root wallet generator with QR-coded private key.
 ===
 
 Run:
