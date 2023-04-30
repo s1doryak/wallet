@@ -1,13 +1,15 @@
-BTC mnemonic root wallet
-
-![wallet](wallet.png)
-
+JavaScript bitcoin mnemonic root wallet generator
 ===
 
 Run:
 
     npm install
     npm test
+
+Screenshot
+---
+
+![wallet](wallet.png)
 
 Links
 ---
