@@ -1,8 +1,3 @@
-// References:
-// - https://learnmeabitcoin.com/technical/keys/hd-wallets/derivation-paths/
-// - https://github.com/bitcoinjs/bitcoinjs-lib/blob/master/test/integration/addresses.spec.ts
-// - https://www.npmjs.com/package/bip39
-
 const bip32 = require('bip32')
 const bip39 = require('bip39')
 const bitcoin = require('bitcoinjs-lib')
@@ -33,7 +28,7 @@ const wallet3 = bitcoin.payments.p2wpkh({
   pubkey: root.derivePath(`m/84'/0'/0'/0/0`).publicKey
 })
 
-const secret = root.derivePath(`m/84'/0'/0'/0/0`).toWIF() // TODO: 1-of-3
+const secret = root.derivePath(`m/84'/0'/0'/0/0`).toWIF() // Bech32 (SegWit native)
 
 qrcode.generate(secret, {small: false}, function (qrcode) {
     console.log(qrcode)
@@ -46,3 +41,4 @@ qrcode.generate(secret, {small: false}, function (qrcode) {
     - Mnemonic : ${mnemonic}
     `)
 })
+
